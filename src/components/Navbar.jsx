@@ -1,16 +1,36 @@
 import React from 'react'
 
+const navbarLinks = [
+    {
+        id: 1,
+        title: "Home",
+        link: "/",
+    },
+    {
+        id: 2,
+        title: "Properties",
+        link: "/",
+    },
+    {
+        id: 3,
+        title: "Contact",
+        link: "/",
+    },
+]
+
 const Navbar = () => {
   return (
-    <header>
-        <nav class="" >
-            <h1>Logo</h1>
-            <ul>
-                <li>nav1</li>
-                <li>nav2</li>
-                <li>nav3</li>
-            </ul>
-        </nav>
+    <header className="fixed top-0 left-0 w-full ">
+      <nav className="flex justify-around text-x py-4  bg-[rgb(25,101,30,0.88)] text-black">
+        <h1 className="text-2xl font-bold ">Logo</h1>
+        <ul className="flex gap-4 text-white text-lg">
+          {navbarLinks.map((link) => (
+            <li key={link.id}>
+              <a href={link.link}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }
