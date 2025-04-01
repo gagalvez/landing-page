@@ -2,13 +2,13 @@ import React from "react";
 
 function Content() {
   return (
-    <main className="absolute bg-[#FDFAF690] top-1/2 right-1/5 p-16 transform -translate-y-50 max-w-xl break-words font-semibold">
-      <article className="">
-        <p className="text-6xl">
+    <div className="flex justify-end px-8 md:px-32 items-center h-full">
+      <section className="absolute bg-[#FDFAF690] w-3xs md:w-sm p-8 break-words font-semibold">
+        <p className=" text-xl md:text-4xl">
           Una forma fácil de encontrar tu propiedad soñada
         </p>
-      </article>
-    </main>
+      </section>
+    </div>
   );
 }
 

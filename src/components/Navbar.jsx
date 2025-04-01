@@ -20,13 +20,15 @@ const navbarLinks = [
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full ">
-      <nav className="flex justify-around text-x py-4  bg-[rgb(25,101,30,0.88)] text-black">
-        <h1 className="text-2xl font-bold ">Logo</h1>
-        <ul className="flex gap-4 text-white text-lg">
+    <header className="fixed top-0 left-0 w-full text-white shadow-md">
+      <nav className="flex justify-between py-4 px-4 bg-[rgb(25,101,30,0.88)] items-center text-sm md:text-lg ">
+        <h1 className="text-sm md:text-lg font-bold text-white">Logo</h1>
+        <ul className="flex gap-4 text-white text-">
           {navbarLinks.map((link) => (
             <li key={link.id}>
-              <a href={link.link}>{link.title}</a>
+              <a href={link.link}>
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>

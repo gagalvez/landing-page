@@ -1,18 +1,10 @@
 import Navbar from "./components/Navbar";
-import bgImg from "./assets/bg-img.jpg"
 import Content from "./components/Content";
 
 function App() {
-  const bgImage = {
-    backgroundImage: `url(${bgImg})`,
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center 22%",
-    backgroundSize: "cover",
-    height: "70vh",
-    position: "relative"
-  };
+
   return (
-    <div style={bgImage} className="overflow-hidden">
+    <div className="bg-[url('/bg-img.jpg')] bg-cover bg-no-repeat bg-[center_10%] w-full h-[40vh] relative md:h-[70vh] ">
       <Navbar />
       <Content />
     </div>
