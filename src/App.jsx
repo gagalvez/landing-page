@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Content from "./components/Content";
 import SearchBar from "./components/SearchBar";
-import Properties from "./components/Properties";
 import Footer from "./components/Footer";
 import Cards from "./components/Cards";
 
@@ -12,7 +11,6 @@ function App() {
       <Navbar />
       <Content />
       <SearchBar />
-      <Properties />
       <Cards />
       <Footer />
     </div>
