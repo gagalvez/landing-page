@@ -20,8 +20,8 @@ const navbarLinks = [
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full shadow-md">
-      <nav className="flex justify-between py-3 px-4 bg-[rgb(25,101,30,0.88)] items-center text-sm md:text-l ">
+    <header className="fixed top-0 left-0 w-full shadow-md z-2" >
+      <nav className="flex justify-between py-3 px-4 bg-[rgb(25,101,30)] items-center text-sm md:text-l ">
         <h1 className="text-sm md:text-lg font-bold text-white">Logo</h1>
         <ul className="flex gap-6 text-white text-lg">
           {navbarLinks.map((link) => (
