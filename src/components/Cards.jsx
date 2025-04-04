@@ -46,16 +46,16 @@ const properties = [
 
 const Cards = () => {
   return (
-    <section className="p-12 grid justify-items-center ">
+    <section className="p-10 grid justify-items-center">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-16">
         {properties.map((property) => (
-          <div className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[14rem] pb-4">
+          <div className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[350px] h-[400px]">
             <img
               src={property.img}
               alt={property.title}
-              className="border-gray-200 h-[200px] w-full object-cover rounded-tl-lg rounded-tr-lg"
+              className="border-gray-200 h-[200px] w-full object-cover rounded-t-md"
             />
-            <div>
+            <div className="p-4">
               <h4 className="text-lg font-semibold text-gray-800 py-2">
                 {property.title}
               </h4>
@@ -75,5 +75,6 @@ const Cards = () => {
     </section>
   );
 };
+
 
 export default Cards;

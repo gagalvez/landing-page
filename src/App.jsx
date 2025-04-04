@@ -8,7 +8,7 @@ import Article from "./components/Article";
 function App() {
 
   return (
-    <div className="bg-[url('/bg-img.jpg')] bg-cover bg-no-repeat bg-[center_10%] w-full h-[40vh] relative md:h-[70vh] ">
+    <div className="bg-[url('/bg-img.jpg')] bg-cover bg-no-repeat bg-[center_10%] w-full h-[40vh] relative md:h-[70vh]">
       <Navbar />
       <Content />
       <SearchBar />
