@@ -16,21 +16,21 @@ const SearchBar = () => {
             placeholder="Location"
             className="text-center text-2xl"
           />
-          <div className="w-[2px] h-full bg-gray-400 rounded-xl"></div>
+          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
           <input
             type="text"
             id="filter"
             placeholder="Property Type"
             className="text-center text-2xl"
           />
-          <div className="w-[2px] h-full bg-gray-400 rounded-xl"></div>
+          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
           <input
             type="text"
             id="filter"
             placeholder="Budget"
             className="text-center text-2xl"
           />
-          <div className="w-[2px] h-full bg-gray-400 rounded-xl"></div>
+          <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
           <button className="grid justify-items-center w-40 h-auto  bg-gradient-to-r from-[rgb(25,101,30)] to-emerald-600 mx-auto p-2 text-white rounded-sm">
             Search
           </button>
