@@ -2,11 +2,11 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="flex justify-center py-17">
+    <div className="flex justify-center pt-17">
       <div className="bg-white grid box-border p-12 shadow-[10px_10px_20px_rgba(0,0,0,0.1)] rounded-sm">
         <div className="pb-8">
-          <h2 className="font-bold text-center">
-            Search for available properties
+          <h2 className="font-bold text-center text-xl text-emerald-900 p-4">
+            SEARCH FOR AVAILABLE PROPERTIES
           </h2>
         </div>
         <div className="flex justify-center gap-8 h-10">
@@ -31,7 +31,7 @@ const SearchBar = () => {
             className="text-center text-2xl"
           />
           <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
-          <button className="grid justify-items-center w-40 h-auto  bg-gradient-to-r from-[rgb(25,101,30)] to-emerald-600 mx-auto p-2 text-white rounded-sm">
+          <button className="flex justify-center items-center w-35 bg-[rgb(25,101,30)] p-6 text-white font-bold rounded-lg align-middle hover:scale-105 transition-transform duration-300 ease-out">
             Search
           </button>
         </div>

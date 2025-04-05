@@ -3,7 +3,7 @@ import Content from "./components/Content";
 import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 import Cards from "./components/Cards";
-import Article from "./components/Article";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <Content />
       <SearchBar />
       <Cards />
-      <Article />
+      <Contact />
       <Footer />
     </div>
   );

@@ -31,29 +31,19 @@ const properties = [
     title: "Departamento en Santiago Centro",
     img: "https://constructorarupanco.com/wp-content/uploads/2021/12/cozy-living-room-interior-with-panoramic-window-1.jpg",
   },
-  {
-    id: 3,
-    title: "Casa en la florida",
-    img: "https://http2.mlstatic.com/D_NQ_NP_2X_720415-MLC83283751673_032025-F-cumbres-de-la-vina-la-florida.webp",
-  },
-  {
-    id: 4,
-    title: "Casa en la reina",
-    img: "https://cf.chilepropiedades.cl/imagenes/publicacion/venta/casa/la-reina/2/6daa0bd6b839457d9d531d41e7d293a9.jpeg",
-  },
   
 ];
 
 const Cards = () => {
   return (
-    <section className="p-10 grid justify-items-center">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-16">
+    <section className="p-40 grid justify-items-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-16">
         {properties.map((property) => (
-          <div className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[350px] h-[400px]">
+          <div className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[520px] h-[480px]">
             <img
               src={property.img}
               alt={property.title}
-              className="border-gray-200 h-[200px] w-full object-cover rounded-t-md"
+              className="border-gray-200 h-[280px] w-full object-cover rounded-t-md"
             />
             <div className="p-4">
               <h4 className="text-lg font-semibold text-gray-800 py-2">
@@ -64,7 +54,7 @@ const Cards = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 px-4 py-2 bg-yellow-300 text-gray-700 rounded-lg"
+                className="inline-block mt-4 px-4 py-2 bg-green-900 text-white rounded-lg"
               >
                 More info
               </a>
