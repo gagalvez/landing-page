@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import Footer from "./components/Footer";
 import Cards from "./components/Cards";
 import Contact from "./components/Contact";
+import Actions from "./components/Actions";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <SearchBar />
       <Cards />
       <Contact />
+      <Actions />
       <Footer />
     </div>
   );
