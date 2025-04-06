@@ -42,9 +42,9 @@ const Navbar = () => {
     <header
       className={`w-full ${
         scrolled
-          ? "fixed top-0 left-0 bg-[rgb(25,101,30)] shadow-md"
+          ? "fixed top-0 left-0 bg-[rgb(25,101,30,0.95)] shadow-md"
           : "absolute top-0 left-0 bg-transparent"
-      } z-2 transition-all duration-300 ease-in-out`}
+      } z-2 transition-all duration-500 ease-in-out`}
     >
       <nav className="flex justify-between px-4 items-center text-lg md:text-l">
         <div className="flex items-center">

@@ -1,6 +1,7 @@
 import React from "react";
 
 const Contact = () => {
+  
   return (
     <article className="w-full h-auto bg-white p-40">
       <div className="grid grid-cols-2 gap-40 justify-items-center">
