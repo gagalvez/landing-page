@@ -39,7 +39,7 @@ const Cards = () => {
     <section className="p-40 grid justify-items-center">
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-16">
         {properties.map((property) => (
-          <div className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[520px] h-[480px]">
+          <div key={property.id} className="rounded-md text-center border-white bg-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl w-[520px] h-[480px]">
             <img
               src={property.img}
               alt={property.title}
@@ -54,7 +54,7 @@ const Cards = () => {
               </p>
               <a
                 href="#"
-                className="inline-block mt-4 px-4 py-2 bg-green-900 text-white rounded-lg"
+                className="inline-block mt-4 px-4 py-2 border-2 border-green-900 hover:bg-green-900 hover:rounded-2xl hover:text-white transition-all ease duration-300"
               >
                 More info
               </a>

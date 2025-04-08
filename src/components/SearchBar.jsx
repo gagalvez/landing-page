@@ -31,7 +31,7 @@ const SearchBar = () => {
             className="text-center text-2xl"
           />
           <div className="w-[1px] h-3xl bg-gray-400 rounded-xl"></div>
-          <button className="flex justify-center items-center w-35 bg-[rgb(25,101,30)] p-6 text-white font-bold rounded-lg align-middle hover:scale-105 transition-transform duration-300 ease-out">
+          <button className="flex justify-center items-center w-35 bg-emerald-900 p-6 text-white font-bold rounded-lg align-middle hover:scale-105 transition-transform duration-300 ease-out">
             Search
           </button>
         </div>

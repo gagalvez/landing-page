@@ -11,7 +11,7 @@ const Actions = () => {
     <section className="w-auto h-auto py-36 px-52">
       <div className="flex justify-around">
         {clientActions.map((actions) => (
-          <div key={actions.id} className="bg-gradient-to-r bg-gray-100 pb-6 max-w-[420px] rounded-3xl shadow-lg">
+          <div key={actions.id} className="bg-white pb-6 max-w-[420px] rounded-3xl shadow-lg">
             <div className="w-[420px] h-[240px] flex justify-center py-6">
               <img
                 src={actions.img}
@@ -30,7 +30,7 @@ const Actions = () => {
               </p>
             </div>
             <div className="flex justify-center pt-4">
-              <button className="border-2 border-white rounded-lg bg-white text-green-900 p-4 hover:bg-green-900 hover:text-white transition">
+              <button className="border-2 border-white rounded-lg bg-white text-green-900 p-4 hover:bg-green-900 hover:text-white transition-all ease duration-300 ">
                 Learn more
               </button>
             </div>

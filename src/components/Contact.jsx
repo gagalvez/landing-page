@@ -16,7 +16,7 @@ const Contact = () => {
             aliquam commodi quod praesentium quis!
           </p>
           <div className="flex justify-center pt-16">
-            <button className="w-auto h-auto py-4 px-12 bg-emerald-900 rounded-2xl text-white">
+            <button className="w-auto h-auto py-4 px-12 border-2 bg-emerald-900 rounded-2xl text-white hover:border-2 hover:scale-115 transition ease duration-300">
               Contact us
             </button>
           </div>

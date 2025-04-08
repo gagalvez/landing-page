@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-full bg-[rgb(25,101,30,0.88)] py-4 px-16 text-white">
+    <footer className="flex flex-col w-full bg-emerald-900 py-4 px-16 text-white">
       <div className="flex justify-between">
         <div className="w-[360px] flex flex-col items-center gap-2">
           <img src="/logo.png" alt="" className="w-[100px]" />
@@ -15,15 +15,23 @@ const Footer = () => {
 
         <div className="w-full px-12 flex flex-row justify-around py-8">
           <div className="flex flex-col items-start gap-6">
-            <h1 className='font-black'>Quick menu</h1>
+            <h1 className="font-black">Quick menu</h1>
             <p>Home</p>
             <p>Rent</p>
             <p>Sell</p>
           </div>
-          <div>
-            <h1>About us</h1>
+          <div className="flex flex-col items-start gap-6">
+            <h1 className="font-black">About us</h1>
+            <p>Mission</p>
+            <p>Vision</p>
+            <p>Team</p>
           </div>
-          <div>Contact info</div>
+          <div className="flex flex-col items-start gap-6">
+            <h1 className="font-black">Contacto info</h1>
+            <p>123 Greenway Avenue, Springfield, USA</p>
+            <p>+1 (555) 987-6543</p>
+            <p>contact@havengreen.com</p>
+          </div>
         </div>
       </div>
 
